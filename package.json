@@ -6,16 +6,23 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "lint": "eslint *.js **/*.js",
-    "lint:fix": "eslint *.js **/*.js --fix",
-    "json:server": "json-server --watch db.json"
+    "lint:fix": "eslint *.js **/*.js src/ --fix"
   },
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.0",
     "react-native-gesture-handler": "^1.3.0",
-    "react-native-reanimated": "^1.1.0",
+    "react-native-modal": "^11.3.1",
+    "react-native-picker-select": "^6.3.0",
+    "react-native-simple-radio-button": "^2.7.3",
     "react-native-vector-icons": "^6.6.0",
-    "react-navigation": "^3.11.1"
+    "react-navigation": "^3.11.1",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "shortid": "^2.2.14"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
